@@ -1,0 +1,205 @@
+/*
+ * Style tweaks
+ * --------------------------------------------------
+ */
+
+html,
+body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+body {
+  padding-top: 0px;  
+  background-color:#818a91;
+}
+footer {
+  height:60px;
+  color: #eceeef;
+  background-color: #373a3c;
+  padding: 30px 0;
+}
+.header {
+  min-height:55px;
+  background-color:#06b2e5;
+}
+.navbar {
+  min-height:50px;
+  border-radius:0;
+  background-color:#06b2e5;
+}
+
+
+/*sidebar user area */
+.userbox{
+  padding: 10px 45px;
+}
+.userbox img {
+  background-color: #373a3c;
+  border-radius:20px;
+  padding:10px;
+  border: dotted .10rem #409e5f;
+}
+.sidenavBox {
+  background:#55595c;
+  padding:10px 0;
+}
+.sidenavBox h5 {
+    font-weight: 300;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    background-color: #55595c;
+    color: #60b2e5;
+    border-bottom: solid 1px #60b2e5;
+}
+.profileEditbtn {
+  padding:10px 15px;
+}
+/*
+ * Off Canvas
+ * --------------------------------------------------
+ */
+@media screen and (max-width: 767px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all .25s ease-out;
+         -o-transition: all .25s ease-out;
+            transition: all .25s ease-out;
+  }
+
+  .row-offcanvas-right {
+    right: 10;
+  }
+
+  .row-offcanvas-left {
+    left: 10;
+  }
+
+  .row-offcanvas-right
+  .sidebar-offcanvas {
+    right: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-right.active {
+    right: 50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left.active {
+    left: 50%; /* 6 columns */
+  }
+
+.sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 50%; /* 6 columns */
+    font-family: Anonymous+Pro;
+  }
+}
+.sidebar-offcanvas .nav-stacked > li > a:hover
+{
+  color:#eceeef;
+   border-right:solid 3px #e56a57;
+   background-color:#818a91;
+   border-radius:0;
+}
+.sidebar-offcanvas .nav-stacked > li > a:active
+{
+  color:#982649;
+ 
+}
+
+.sidebar-offcanvas .nav-stacked > li > a{
+    text-align:justify;
+    padding-left:1.5em;
+    background-color:#373a3c;
+    border-right:solid 3px #373a3c;
+}
+
+.sidebar-offcanvas .left-submenu > li a {
+   padding-left:2.5em;
+   background-color:#55595c;
+  border-right:solid 3px #fff;
+  margin-top: -1px;
+  margin-bottom: -4px;
+}
+
+.contactIcon{
+margin-left: 6px;
+    padding-left: 18px;
+    padding-top: 4px;
+    height: 60px;
+    background-color: #373a3c;
+}
+.contactIcon-icon {
+  margin:0;
+  padding:0;
+}
+.contactIcon-icon a{
+  padding:5px;
+    margin-top: 10px;
+  background-color:#373a3c;
+border: solid 1px #373a3c;  
+  height:25px;
+  width:35px;
+ 
+  text-align:center;
+  font-weight:600;
+  font-size:20px;
+}
+.contactIcon-icon a:hover{
+  background-color:#55595c;
+  border: solid 1px #373a3c;  
+ 
+}
+
+
+/*BreakPoints*/
+
+@media screen and (max-width: 767px){
+  .row-offcanvas-left .sidebar-offcanvas {left: -48%;}
+}
+.jumbotron {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+.album {
+  min-height: 50rem; /* Can be removed; just added for demo purposes */
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #f7f7f7;
+}
+
+.card {
+  float: left;
+  width: 33.333%;
+  padding: .75rem;
+  margin-bottom: 2rem;
+  border: 0;
+}
+
+.card > img {
+  margin-bottom: .75rem;
+}
+
+.card-text {
+  font-size: 85%;
+}

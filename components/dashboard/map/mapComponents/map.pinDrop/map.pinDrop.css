@@ -1,0 +1,33 @@
+/* Main api-desc message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: .05rem solid #e5e5e5;
+}
+.jumbotron .btn {
+  padding: .75rem 1.5rem;
+  font-size: 1.5rem;
+}
+#map{
+  float: left;
+  height: 500px;
+  width: 100%;
+}
+
+/* Supporting api-desc content */
+.api-desc {
+  margin: 3rem 0;
+}
+.api-desc p + h4 {
+  margin-top: 1.5rem;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 48em) {
+  /* Remove the padding we set earlier */
+  .header,
+  .api-desc,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}

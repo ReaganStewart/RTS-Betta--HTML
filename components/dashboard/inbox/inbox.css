@@ -4,25 +4,52 @@
 .toolbar{
     background-color:#95a5a6;
 }
-.list-group-item{
-    border:none;
-    border-radius: 0;
+
+/*Email Nav */
+.RTStag-inner{
+
+}
+RTS-innerNav {
+  /*  position: absolute;
+    top: 0;
+    width: 50%;  6 columns */
+    font-family: Anonymous+Pro;
+  }
+
+.RTS-innerNav .nav-stacked > li > a:hover
+{
+  color:#eceeef;
+   border-right:solid 3px #e56a57;
+   background-color:#818a91;
+   border-radius:0;
+}
+.RTS-innerNav .nav-stacked > li > a:active
+{
+  color:#982649;
+ 
 }
 
-.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
-    background:#808080;
-    border:none;
-    border-left:solid 1px #831616;
-    color:#ffffff;
-    border-radius:0;
+
+.RTS-innerNav .nav-stacked > li > a{
+    text-align:justify;
+    padding-left:1.5em;
+
 }
-.nav>li>a:hover, .nav>li>a:focus{
-    background:#808080;
-    border:none;
-    border-left:solid 1px #831616;
-    color:#ffffff;
-    border-radius:0;
+
+.RTS-innerNav .left-submenu > li a {
+   padding-left:2.5em;
+   background-color:#55595c;
+   border:none;
+  margin-top: -1px;
+  margin-bottom: -4px;
+  border-radius: 0;
 }
+/*inner Nav */
+ .collapse-toggle:show, .show .collaose-toggle > li a{
+      background-color:darkorange;
+}
+
+
 /*  Bread Crumbs */
 .content-header {
     background: transparent;
@@ -83,3 +110,6 @@
     right: 10px;
     top: 5px;
 }
+
+
+
